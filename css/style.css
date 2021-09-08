@@ -1,0 +1,88 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tic-tac-container{
+    display: grid;
+    height: 440px;
+    width: 440px;
+    margin: 60px auto;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+}
+.tic-tac-item{
+    background-color: white;
+}
+.choice{
+    text-align: center;
+    margin-top: 100px;
+
+}
+.choice button {
+    border-radius: 10px;
+    width: 30%;
+    height: 50px;
+    margin: 0 8px;
+    border: none;
+    color: white;
+    background-color: dimgrey;
+
+}
+h1, h2{
+    font-size: 2.5em;
+}
+p{
+    text-align: center;
+}
+@media only screen and (min-width: 360px) and (max-width: 420px){
+    .tic-tac-container{
+
+        height: 340px;
+        width: 340px;
+    }
+}
+.item1{
+    border-right: black 5px solid;
+    border-bottom: black 5px solid;
+
+}
+.item2{
+    border-left: black 5px solid;
+    border-right: black 5px solid;
+    border-bottom: black 5px solid;
+}
+.item3{
+    border-left: black 5px solid;
+    border-bottom: black 5px solid;
+
+}
+.item4{
+    border-top: black 5px solid;
+    border-right: black 5px solid;
+    border-bottom: black 5px solid;
+}
+.item5{
+    border-left: black 5px solid;
+    border-right: black 5px solid;
+    border-bottom: black 5px solid;
+    border-top: black 5px solid;
+}
+.item6{
+    border-left: black 5px solid;
+    border-top: black 5px solid;
+    border-bottom: black 5px solid;
+}
+.item7{
+    border-right: black 5px solid;
+    border-top: black 5px solid;
+
+}
+.item8{
+    border-top: black 5px solid;
+    border-right: black 5px solid;
+    border-left: black 5px solid;
+}
+.item9{
+    border-left: black 5px solid;
+    border-top: black 5px solid;
+
+}
